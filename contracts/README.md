@@ -6,10 +6,10 @@ Soroban Rust contracts powering purpose-bound remittances on Stellar.
 
 ## Contracts
 
-| Contract | Purpose | Status |
-|----------|---------|--------|
-| [`escrow/`](./escrow/) | Purpose-locked fund escrow with claim + release logic | In development |
-| [`registry/`](./registry/) | Verified institution registry (schools, hospitals, utilities) | In development |
+| Contract | Purpose | Testnet |
+|----------|---------|---------|
+| [`escrow/`](./escrow/) | Purpose-locked fund escrow with claim + release logic | [`CBE7...QPGA`](https://stellar.expert/explorer/testnet/contract/CBE7HHQI3F7NGPKRILKFQNZYDSSZBN27BSJSOE3EVYKLJ6YXXPYZQPGA) |
+| [`registry/`](./registry/) | Verified institution registry (schools, hospitals, utilities) | [`CAAH...ASJ`](https://stellar.expert/explorer/testnet/contract/CAAH5I3TKPRGJ74ONQVDG2V7XKA5R5KW352UU4SHTXFYCBOYY34PMASJ) |
 
 ---
 

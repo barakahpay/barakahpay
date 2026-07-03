@@ -140,14 +140,19 @@ barakahpay/
 
 ## Live Deployment (Testnet)
 
-The escrow contract is deployed and initialized on Stellar Testnet:
+Both core contracts are deployed and initialized on Stellar Testnet:
 
+### Escrow Contract
 - **Contract ID:** `CBE7HHQI3F7NGPKRILKFQNZYDSSZBN27BSJSOE3EVYKLJ6YXXPYZQPGA`
-- **Stellar Expert:** [View contract](https://stellar.expert/explorer/testnet/contract/CBE7HHQI3F7NGPKRILKFQNZYDSSZBN27BSJSOE3EVYKLJ6YXXPYZQPGA)
-- **Stellar Lab:** [Interactive explorer](https://lab.stellar.org/r/testnet/contract/CBE7HHQI3F7NGPKRILKFQNZYDSSZBN27BSJSOE3EVYKLJ6YXXPYZQPGA)
+- **Explorer:** [Stellar Expert](https://stellar.expert/explorer/testnet/contract/CBE7HHQI3F7NGPKRILKFQNZYDSSZBN27BSJSOE3EVYKLJ6YXXPYZQPGA) · [Stellar Lab](https://lab.stellar.org/r/testnet/contract/CBE7HHQI3F7NGPKRILKFQNZYDSSZBN27BSJSOE3EVYKLJ6YXXPYZQPGA)
 - **WASM size:** 7.8 KB
 
-Full deployment details: [`contracts/escrow/README.md`](./contracts/escrow/README.md)
+### Registry Contract
+- **Contract ID:** `CAAH5I3TKPRGJ74ONQVDG2V7XKA5R5KW352UU4SHTXFYCBOYY34PMASJ`
+- **Explorer:** [Stellar Expert](https://stellar.expert/explorer/testnet/contract/CAAH5I3TKPRGJ74ONQVDG2V7XKA5R5KW352UU4SHTXFYCBOYY34PMASJ) · [Stellar Lab](https://lab.stellar.org/r/testnet/contract/CAAH5I3TKPRGJ74ONQVDG2V7XKA5R5KW352UU4SHTXFYCBOYY34PMASJ)
+- **WASM size:** 8.42 KB
+
+Full deployment details: [`contracts/escrow/DEPLOYMENT.md`](./contracts/escrow/DEPLOYMENT.md) · [`contracts/registry/DEPLOYMENT.md`](./contracts/registry/DEPLOYMENT.md)
 
 ---
 
@@ -156,8 +161,8 @@ Full deployment details: [`contracts/escrow/README.md`](./contracts/escrow/READM
 | Milestone | Target | Status |
 |-----------|--------|--------|
 | Escrow contract on testnet | Q3 2026 | Done |
-| Registry contract on testnet | Q3 2026 | Planned |
-| Landing page + waitlist | Q3 2026 | Planned |
+| Registry contract on testnet | Q3 2026 | Done |
+| Landing page + waitlist | Q3 2026 | Done |
 | MoneyGram sandbox integration | Q3 2026 | Planned |
 | Working end-to-end testnet demo | Q3 2026 | Planned |
 | SCF Build Award submission | Q3 2026 | Planned |

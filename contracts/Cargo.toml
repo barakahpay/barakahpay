@@ -2,6 +2,7 @@
 resolver = "2"
 members = [
     "escrow",
+    "registry",
 ]
 
 [workspace.package]
