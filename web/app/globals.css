@@ -1,0 +1,82 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --font-inter: 'Inter', system-ui, sans-serif;
+  --font-noto-nastaliq: 'Noto Nastaliq Urdu', 'Noto Naskh Arabic', serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    @apply bg-cream-50 text-slate-800 antialiased;
+    font-feature-settings: 'ss01', 'ss02', 'cv01', 'cv03';
+  }
+
+  html[dir='rtl'] body {
+    font-family: var(--font-noto-nastaliq);
+    line-height: 1.9;
+  }
+
+  html[dir='rtl'] h1,
+  html[dir='rtl'] h2,
+  html[dir='rtl'] h3 {
+    line-height: 1.5;
+  }
+
+  /* Focus rings */
+  *:focus-visible {
+    @apply outline-none ring-2 ring-primary-500 ring-offset-2 ring-offset-cream-50;
+  }
+}
+
+@layer components {
+  .container-max {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-primary-800 px-6 py-3 text-sm font-semibold text-cream-50 shadow-lg shadow-primary-800/20 transition-all hover:bg-primary-900 hover:shadow-xl hover:shadow-primary-800/30 active:scale-[0.98];
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border-2 border-primary-800 bg-transparent px-6 py-3 text-sm font-semibold text-primary-800 transition-all hover:bg-primary-800 hover:text-cream-50 active:scale-[0.98];
+  }
+
+  .card {
+    @apply rounded-3xl border border-primary-100 bg-white/60 p-8 backdrop-blur-sm transition-all;
+  }
+
+  .eyebrow {
+    @apply mb-3 inline-flex items-center gap-2 rounded-full border border-primary-200 bg-primary-50 px-4 py-1.5 text-xs font-medium uppercase tracking-wider text-primary-800;
+  }
+
+  .heading-1 {
+    @apply text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl md:text-6xl;
+  }
+
+  .heading-2 {
+    @apply text-3xl font-bold tracking-tight text-slate-900 sm:text-4xl;
+  }
+
+  .heading-3 {
+    @apply text-xl font-semibold text-slate-900;
+  }
+
+  .lede {
+    @apply text-lg text-slate-600 sm:text-xl;
+  }
+}
+
+/* Subtle background pattern */
+.hero-bg {
+  background-image:
+    radial-gradient(at 30% 20%, rgba(16, 185, 129, 0.08) 0px, transparent 50%),
+    radial-gradient(at 80% 60%, rgba(245, 158, 11, 0.06) 0px, transparent 50%),
+    radial-gradient(at 20% 90%, rgba(6, 95, 70, 0.05) 0px, transparent 50%);
+}

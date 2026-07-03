@@ -1,0 +1,117 @@
+{
+  "meta": {
+    "title": "BarakahPay — Purpose-Bound Remittances on Stellar",
+    "description": "Send money for what matters. School fees paid directly. Proof of use on-chain. Trusted remittance rails for the Pakistan corridor."
+  },
+  "nav": {
+    "howItWorks": "How it works",
+    "features": "Features",
+    "waitlist": "Join waitlist",
+    "language": "اردو"
+  },
+  "hero": {
+    "eyebrow": "Live on Stellar Testnet",
+    "titleLine1": "Send money for",
+    "titleAccent": "what matters.",
+    "titleLine2": "Verify it got there.",
+    "subtitle": "Purpose-bound remittances built on Stellar. Sponsor a student's education directly — with on-chain proof the fees reached the school.",
+    "ctaPrimary": "Join the waitlist",
+    "ctaSecondary": "See how it works",
+    "trustPoints": {
+      "one": "Regulated fiat rails",
+      "two": "Live on-chain proof",
+      "three": "Sub-cent transaction fees"
+    }
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "Four steps. Full transparency.",
+    "subtitle": "Every transaction is bound to a specific purpose and delivered directly to a verified institution.",
+    "step1": {
+      "title": "Choose a verified school",
+      "body": "Browse our network of verified schools in Pakistan and pick where your money should go."
+    },
+    "step2": {
+      "title": "Deposit securely",
+      "body": "Fund your escrow via MoneyGram. Your USD converts to on-chain USDC and is purpose-locked."
+    },
+    "step3": {
+      "title": "School receives payment",
+      "body": "The verified school claims the payment directly to their business bank account in PKR."
+    },
+    "step4": {
+      "title": "You get proof",
+      "body": "On-chain receipt confirms exactly where the money went. Full audit trail forever."
+    }
+  },
+  "features": {
+    "eyebrow": "Why BarakahPay",
+    "title": "Built for the diaspora that cares.",
+    "subtitle": "Traditional remittances just move money. BarakahPay guarantees purpose.",
+    "one": {
+      "title": "Purpose-locked money",
+      "body": "Funds can only reach a verified school for a specific student. No misdirection, no borrowing, no guesswork."
+    },
+    "two": {
+      "title": "On-chain proof of use",
+      "body": "Every payment produces a permanent, verifiable receipt on Stellar. Peace of mind for every sender."
+    },
+    "three": {
+      "title": "Institution-first design",
+      "body": "Schools receive PKR directly to their business bank account through regulated rails — no crypto complexity for them."
+    },
+    "four": {
+      "title": "Ultra-low fees",
+      "body": "Sub-cent network costs on Stellar mean more of your money reaches its purpose. Not the middlemen."
+    },
+    "five": {
+      "title": "Faith-aligned",
+      "body": "Perfect for Zakat, Sadaqah, and family sponsorships where accountability matters as much as generosity."
+    },
+    "six": {
+      "title": "Fast settlement",
+      "body": "Sub-second on-chain finality. Schools get funds within hours, not days."
+    }
+  },
+  "waitlist": {
+    "eyebrow": "Join us early",
+    "title": "Be first in line when we launch.",
+    "subtitle": "We're onboarding senders and schools now for our Pakistan corridor beta. Reserve your spot below.",
+    "nameLabel": "Full name",
+    "namePlaceholder": "Ishtiaq Ahmed",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "you@example.com",
+    "roleLabel": "I am a",
+    "roleSender": "Sender (I want to send remittances)",
+    "roleSchool": "School (We want to receive payments)",
+    "roleOther": "Something else",
+    "countryLabel": "Country",
+    "countryPlaceholder": "Pakistan, UK, UAE, Saudi Arabia...",
+    "submit": "Reserve my spot",
+    "submitting": "Submitting...",
+    "successTitle": "You're on the list.",
+    "successBody": "Thank you for joining. We'll reach out as soon as our beta is ready for your role and region.",
+    "successReset": "Add another",
+    "errorRequired": "Please fill in all required fields.",
+    "errorEmail": "Please enter a valid email address.",
+    "errorSubmit": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "tagline": "Built with intention for underserved corridors.",
+    "product": "Product",
+    "productHow": "How it works",
+    "productFeatures": "Features",
+    "productWaitlist": "Waitlist",
+    "resources": "Resources",
+    "resourcesGithub": "GitHub",
+    "resourcesBusinessPlan": "Business Plan",
+    "resourcesRoadmap": "Roadmap",
+    "resourcesContract": "Live Contract",
+    "ecosystem": "Ecosystem",
+    "ecosystemStellar": "Stellar",
+    "ecosystemSoroban": "Soroban",
+    "ecosystemSCF": "Community Fund",
+    "rights": "All rights reserved.",
+    "openSource": "Open source under MIT."
+  }
+}
