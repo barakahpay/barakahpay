@@ -9,6 +9,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Stellar](https://img.shields.io/badge/Built%20on-Stellar-000000.svg)](https://stellar.org)
 [![Soroban](https://img.shields.io/badge/Smart%20Contracts-Soroban-purple.svg)](https://soroban.stellar.org)
+[![Testnet Live](https://img.shields.io/badge/Testnet-Live-brightgreen.svg)](https://stellar.expert/explorer/testnet/contract/CBE7HHQI3F7NGPKRILKFQNZYDSSZBN27BSJSOE3EVYKLJ6YXXPYZQPGA)
 [![Status](https://img.shields.io/badge/Status-In%20Development-orange.svg)](./docs/roadmap.md)
 
 </div>
@@ -137,18 +138,32 @@ barakahpay/
 
 ---
 
+## Live Deployment (Testnet)
+
+The escrow contract is deployed and initialized on Stellar Testnet:
+
+- **Contract ID:** `CBE7HHQI3F7NGPKRILKFQNZYDSSZBN27BSJSOE3EVYKLJ6YXXPYZQPGA`
+- **Stellar Expert:** [View contract](https://stellar.expert/explorer/testnet/contract/CBE7HHQI3F7NGPKRILKFQNZYDSSZBN27BSJSOE3EVYKLJ6YXXPYZQPGA)
+- **Stellar Lab:** [Interactive explorer](https://lab.stellar.org/r/testnet/contract/CBE7HHQI3F7NGPKRILKFQNZYDSSZBN27BSJSOE3EVYKLJ6YXXPYZQPGA)
+- **WASM size:** 7.8 KB
+
+Full deployment details: [`contracts/escrow/README.md`](./contracts/escrow/README.md)
+
+---
+
 ## Roadmap Highlights
 
-| Milestone | Target |
-|-----------|--------|
-| Escrow + registry contracts on testnet | Q3 2026 |
-| Landing page + waitlist | Q3 2026 |
-| MoneyGram sandbox integration | Q3 2026 |
-| Working end-to-end testnet demo | Q3 2026 |
-| SCF Build Award submission | Q3 2026 |
-| Mainnet deployment | Q4 2026 |
-| Pakistan corridor soft launch | Q4 2026 |
-| First 100 real transactions | Q4 2026 |
+| Milestone | Target | Status |
+|-----------|--------|--------|
+| Escrow contract on testnet | Q3 2026 | Done |
+| Registry contract on testnet | Q3 2026 | Planned |
+| Landing page + waitlist | Q3 2026 | Planned |
+| MoneyGram sandbox integration | Q3 2026 | Planned |
+| Working end-to-end testnet demo | Q3 2026 | Planned |
+| SCF Build Award submission | Q3 2026 | Planned |
+| Mainnet deployment | Q4 2026 | Planned |
+| Pakistan corridor soft launch | Q4 2026 | Planned |
+| First 100 real transactions | Q4 2026 | Planned |
 
 See [`docs/roadmap.md`](./docs/roadmap.md) for the full roadmap.
 
